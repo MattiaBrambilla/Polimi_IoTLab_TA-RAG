@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+venv/
+
+__pycache__/
+
+# this is for environment variables, such as API keys, you neeted to keep secret
+.env

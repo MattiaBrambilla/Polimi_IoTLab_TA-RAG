@@ -1,0 +1,81 @@
+﻿qid,family,system,C_total,C_cited,C_supported,C_unsupported,query,CCR,FCR,UCR
+A1,A,B2,4,3,3,1,"On June 10, between 09:00 and 18:00, when did IEQ hit the minimum?",0.75,1,0.25
+A1,A,TA-RAG,22,20,20,2,"On June 10, between 09:00 and 18:00, when did IEQ hit the minimum?",0.91,1,0.09
+A1,A,A3,21,17,17,4,"On June 10, between 09:00 and 18:00, when did IEQ hit the minimum?",0.81,1,0.19
+A1,A,B0-CSV,4,3,2,2,"On June 10, between 09:00 and 18:00, when did IEQ hit the minimum?",0.75,0.6667,0.5
+A2,A,B2,8,3,3,5,"On June 15, between 12:00 and 18:00, when was the temperature the highest?",0.375,1,0.625
+A2,A,TA-RAG,12,11,11,1,"On June 15, between 12:00 and 18:00, when was the temperature the highest?",0.9167,1,0.0833
+A2,A,A3,14,12,12,2,"On June 15, between 12:00 and 18:00, when was the temperature the highest?",0.8571,1,0.1429
+A2,A,B0-CSV,4,4,0,4,"On June 15, between 12:00 and 18:00, when was the temperature the highest?",1,0,1
+A3,A,B2,3,1,0,3,"On June 20, between 09:00 and 12:00, which hour had the highest CO₂?",0.33,0,1
+A3,A,TA-RAG,8,7,7,1,"On June 20, between 09:00 and 12:00, which hour had the highest CO₂?",0.875,1,0.125
+A3,A,A3,10,6,6,4,"On June 20, between 09:00 and 12:00, which hour had the highest CO₂?",0.6,1,0.4
+A3,A,B0-CSV,7,7,7,0,"On June 20, between 09:00 and 12:00, which hour had the highest CO₂?",1,1,0
+A4,A,B2,9,9,5,4,"On June 25, between 14:00 and 20:00, which hour had the lowest illuminance?",1,0.56,0.44
+A4,A,TA-RAG,12,11,11,1,"On June 25, between 14:00 and 20:00, which hour had the lowest illuminance?",0.9167,1,0.0833
+A4,A,A3,13,11,11,2,"On June 25, between 14:00 and 20:00, which hour had the lowest illuminance?",0.8462,1,0.1538
+A4,A,B0-CSV,10,10,10,0,"On June 25, between 14:00 and 20:00, which hour had the lowest illuminance?",1,1,0
+B1,B,B2,8,3,2,6,"On June 15, what was the most comfortable hour overall, and why?",0.375,0.6667,0.75
+B1,B,TA-RAG,38,38,38,0,"On June 15, what was the most comfortable hour overall, and why?",1,1,0
+B1,B,A3,25,6,6,19,"On June 15, what was the most comfortable hour overall, and why?",0.24,1,0.76
+B1,B,B0-CSV,8,2,2,6,"On June 15, what was the most comfortable hour overall, and why?",0.25,1,0.75
+B2,B,B2,8,4,3,5,"On June 25, which hour felt the worst to stay in the room, and what signals support that?",0.5,0.75,0.625
+B2,B,TA-RAG,38,38,38,0,"On June 25, which hour felt the worst to stay in the room, and what signals support that?",1,1,0
+B2,B,A3,21,9,9,12,"On June 25, which hour felt the worst to stay in the room, and what signals support that?",0.4286,1,0.5714
+B2,B,B0-CSV,11,2,2,9,"On June 25, which hour felt the worst to stay in the room, and what signals support that?",0.1818,1,0.8182
+B3,B,B2,5,3,3,2,"On July 4, when was the room condition closest to “ideal” across temperature, humidity, CO₂, and light?",0.6,1,0.4
+B3,B,TA-RAG,18,18,17,1,"On July 4, when was the room condition closest to “ideal” across temperature, humidity, CO₂, and light?",1,0.9444,0.0556
+B3,B,A3,24,9,8,16,"On July 4, when was the room condition closest to “ideal” across temperature, humidity, CO₂, and light?",0.38,0.89,0.67
+B3,B,B0-CSV,8,4,0,8,"On July 4, when was the room condition closest to “ideal” across temperature, humidity, CO₂, and light?",0.5,0,1
+B4,B,B2,6,3,3,3,"On July 8, what was the best hour for focused work (quiet/comfortable air), and why?",0.5,1,0.5
+B4,B,TA-RAG,13,13,13,0,"On July 8, what was the best hour for focused work (quiet/comfortable air), and why?",1,1,0
+B4,B,A3,16,13,13,3,"On July 8, what was the best hour for focused work (quiet/comfortable air), and why?",0.81,1,0.19
+B4,B,B0-CSV,9,2,2,7,"On July 8, what was the best hour for focused work (quiet/comfortable air), and why?",0.2222,1,0.7778
+C1,C,B2,7,3,3,4,"On June 9, do you have enough data to answer “the worst hour in the evening”? If not, say what’s missing.",0.43,1,0.57
+C1,C,TA-RAG,22,22,22,0,"On June 9, do you have enough data to answer “the worst hour in the evening”? If not, say what’s missing.",1,1,0
+C1,C,A3,22,8,8,14,"On June 9, do you have enough data to answer “the worst hour in the evening”? If not, say what’s missing.",0.3636,1,0.6364
+C1,C,B0-CSV,7,4,0,7,"On June 9, do you have enough data to answer “the worst hour in the evening”? If not, say what’s missing.",0.5714,0,1
+C2,C,B2,12,6,6,6,"On July 11, interpret “early morning” and find the worst IEQ hour there.",0.5,1,0.5
+C2,C,TA-RAG,9,9,8,1,"On July 11, interpret “early morning” and find the worst IEQ hour there.",1,0.8889,0.1111
+C2,C,A3,13,8,8,5,"On July 11, interpret “early morning” and find the worst IEQ hour there.",0.62,1,0.38
+C2,C,B0-CSV,12,6,0,12,"On July 11, interpret “early morning” and find the worst IEQ hour there.",0.5,0,1
+C3,C,B2,9,4,4,5,"On June 15, interpret “around noon” and identify the lowest illuminance hour. ",0.44,1,0.56
+C3,C,TA-RAG,7,6,6,1,"On June 15, interpret “around noon” and identify the lowest illuminance hour. ",0.8571,1,0.1429
+C3,C,A3,9,5,5,4,"On June 15, interpret “around noon” and identify the lowest illuminance hour. ",0.5556,1,0.4444
+C3,C,B0-CSV,7,5,0,7,"On June 15, interpret “around noon” and identify the lowest illuminance hour. ",0.7142,0,1
+C4,C,B2,13,7,7,6,"From July 1 to July 3, which day had the worst hour between 12:00–18:00?",0.5385,1,0.4615
+C4,C,TA-RAG,14,14,14,0,"From July 1 to July 3, which day had the worst hour between 12:00–18:00?",1,1,0
+C4,C,A3,12,10,10,2,"From July 1 to July 3, which day had the worst hour between 12:00–18:00?",0.8333,1,0.1667
+C4,C,B0-CSV,11,6,0,11,"From July 1 to July 3, which day had the worst hour between 12:00–18:00?",0.5455,0,1
+D1,D,B2,8,3,3,5,"On August 7, was the minimum IEQ hour mainly a “darkness” problem or something else?",0.375,1,0.625
+D1,D,TA-RAG,36,35,35,1,"On August 7, was the minimum IEQ hour mainly a “darkness” problem or something else?",0.9722,1,0.0278
+D1,D,A3,17,12,12,5,"On August 7, was the minimum IEQ hour mainly a “darkness” problem or something else?",0.7059,1,0.2941
+D1,D,B0-CSV,8,5,0,8,"On August 7, was the minimum IEQ hour mainly a “darkness” problem or something else?",0.625,0,1
+D2,D,B2,9,7,7,2,"On August 15, explain the causal chain for the worst IEQ hour (what changed first → what followed).",0.7778,1,0.2222
+D2,D,TA-RAG,38,38,38,0,"On August 15, explain the causal chain for the worst IEQ hour (what changed first → what followed).",1,1,0
+D2,D,A3,21,13,13,8,"On August 15, explain the causal chain for the worst IEQ hour (what changed first → what followed).",0.619,1,0.381
+D2,D,B0-CSV,28,14,0,28,"On August 15, explain the causal chain for the worst IEQ hour (what changed first → what followed).",0.5,0,1
+D3,D,B2,18,17,1,17,"On July 14, if the door was open longer, did CO₂ always go up? Provide evidence.",0.9444,0.0588,0.9444
+D3,D,TA-RAG,36,35,35,1,"On July 14, if the door was open longer, did CO₂ always go up? Provide evidence.",0.9722,1,0.0278
+D3,D,A3,20,10,10,10,"On July 14, if the door was open longer, did CO₂ always go up? Provide evidence.",0.5,1,0.5
+D3,D,B0-CSV,13,9,0,13,"On July 14, if the door was open longer, did CO₂ always go up? Provide evidence.",0.6923,0,1
+D4,D,B2,7,4,2,5,"On July 27, identify a “sensor conflict” hour: one sensor looks good but IEQ is bad—why?",0.5714,0.5,0.7143
+D4,D,TA-RAG,37,36,36,1,"On July 27, identify a “sensor conflict” hour: one sensor looks good but IEQ is bad—why?",0.973,1,0.027
+D4,D,A3,21,7,7,14,"On July 27, identify a “sensor conflict” hour: one sensor looks good but IEQ is bad—why?",0.3333,1,0.6667
+D4,D,B0-CSV,11,1,1,10,"On July 27, identify a “sensor conflict” hour: one sensor looks good but IEQ is bad—why?",0.0909,1,0.9091
+E1,E,B2,10,10,1,9,"On June 10, locate the most abnormal hour across sensors and explain the root cause.",1,0.1,0.9
+E1,E,TA-RAG,13,13,13,0,"On June 10, locate the most abnormal hour across sensors and explain the root cause.",1,1,0
+E1,E,A3,22,13,13,9,"On June 10, locate the most abnormal hour across sensors and explain the root cause.",0.5909,1,0.4091
+E1,E,B0-CSV,17,7,5,12,"On June 10, locate the most abnormal hour across sensors and explain the root cause.",0.4118,0.7143,0.7059
+E2,E,B2,15,15,2,13,"On June 25, find the darkest hour and explain whether it triggered an IEQ anomaly.",1,0.1333,0.8667
+E2,E,TA-RAG,13,13,13,0,"On June 25, find the darkest hour and explain whether it triggered an IEQ anomaly.",1,1,0
+E2,E,A3,11,7,7,4,"On June 25, find the darkest hour and explain whether it triggered an IEQ anomaly.",0.6364,1,0.3636
+E2,E,B0-CSV,12,3,1,11,"On June 25, find the darkest hour and explain whether it triggered an IEQ anomaly.",0.25,0.3333,0.9167
+E3,E,B2,7,7,1,6,"On August 1, find the hour where humidity peaked and explain whether it caused an IEQ anomaly.",1,0.1429,0.8571
+E3,E,TA-RAG,11,11,11,0,"On August 1, find the hour where humidity peaked and explain whether it caused an IEQ anomaly.",1,1,0
+E3,E,A3,23,13,13,10,"On August 1, find the hour where humidity peaked and explain whether it caused an IEQ anomaly.",0.5652,1,0.4348
+E3,E,B0-CSV,15,7,0,15,"On August 1, find the hour where humidity peaked and explain whether it caused an IEQ anomaly.",0.4667,0,1
+E4,E,B2,10,10,3,7,"On August 15, locate the “turning point” when conditions went from okay to bad",1,0.3,0.7
+E4,E,TA-RAG,38,38,38,0,"On August 15, locate the “turning point” when conditions went from okay to bad",1,1,0
+E4,E,A3,21,12,12,9,"On August 15, locate the “turning point” when conditions went from okay to bad",0.5714,1,0.4286
+E4,E,B0-CSV,15,9,2,13,"On August 15, locate the “turning point” when conditions went from okay to bad",0.6,0.2222,0.8667
